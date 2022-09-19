@@ -4,7 +4,7 @@
         "rootDir": "src",
         "outDir": "dist",
         "noEmitOnError": false,
-        "types": ["webdriverio/async"]
+        "types": ["node", "webdriverio/async"]
     },
     "include": ["src"],
     "references": [
