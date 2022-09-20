@@ -10,6 +10,9 @@
         "incremental": true,
         "noEmitOnError": true,
         "noUnusedLocals": true,
+        // LCT has these:
+        "experimentalDecorators": true,
+        "esModuleInterop": true
     },
     "exclude": ["**/dist", "**/__tests__"]
 }
