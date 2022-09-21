@@ -34,7 +34,7 @@ describe('automatic checks registration', () => {
 
     it('should run when called directly without setup', () => {
         registerSa11yAutomaticChecks(); // exercising default args for code cov
-        expect(registerAutomaticMock).toHaveBeenCalledWith(undefined);
+        expect(registerAutomaticMock).toHaveBeenCalled();
     });
 
     it('should not run by default via setup', () => {
